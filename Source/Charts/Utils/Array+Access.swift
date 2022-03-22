@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Collection {
+extension Swift.Collection {
     subscript (safe index: Index) -> Element? {
         return indices.contains(index) ? self[index] : nil
     }
