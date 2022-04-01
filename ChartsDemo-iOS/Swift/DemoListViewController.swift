@@ -19,12 +19,19 @@ private struct ItemDef {
 class DemoListViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
-    private var itemDefs = [ItemDef(title: "Line Chart",
+    private var itemDefs = [
+                    ItemDef(title: "Line Chart",
                             subtitle: "A simple demonstration of the linechart.",
                             class: LineChart1ViewController.self),
                     ItemDef(title: "Line Chart (Dual YAxis)",
                             subtitle: "Demonstration of the linechart with dual y-axis.",
                             class: LineChart2ViewController.self),
+                    ItemDef(title: "Bloom Line Chart",
+                            subtitle: "A simple demonstration of the linechart.",
+                            class: BloomLineChart1ViewController.self),
+                    ItemDef(title: "Bloom Line Chart (Dual YAxis)",
+                            subtitle: "Demonstration of the linechart with dual y-axis.",
+                            class: BloomLineChart2ViewController.self),
                     ItemDef(title: "Bar Chart",
                             subtitle: "A simple demonstration of the bar chart.",
                             class: BarChartViewController.self),

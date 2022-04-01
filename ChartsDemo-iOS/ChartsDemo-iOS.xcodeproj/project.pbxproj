@@ -135,6 +135,10 @@
 		5BEAED3C1ABC199F0013F194 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3A1ABC199F0013F194 /* ColoredLineChartViewController.xib */; };
 		5BEAED401ABC1AC60013F194 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */; };
 		5BEAED411ABC1AC60013F194 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
+		66E700ED27F756DB001579E8 /* BloomLineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E700EC27F756DB001579E8 /* BloomLineChart1ViewController.xib */; };
+		66E700EF27F756FD001579E8 /* BloomLineChart2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E700EE27F756FD001579E8 /* BloomLineChart2ViewController.xib */; };
+		66E700F127F75722001579E8 /* BloomLineChart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E700F027F75722001579E8 /* BloomLineChart2ViewController.swift */; };
+		66E700F227F7578F001579E8 /* BloomLineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E700EA27F7565E001579E8 /* BloomLineChart1ViewController.swift */; };
 		B64D06EB1FB199130067418D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64D06EA1FB199130067418D /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -323,6 +327,10 @@
 		5BEAED3D1ABC1AC60013F194 /* SinusBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusBarChartViewController.h; sourceTree = "<group>"; };
 		5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
 		5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		66E700EA27F7565E001579E8 /* BloomLineChart1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomLineChart1ViewController.swift; sourceTree = "<group>"; };
+		66E700EC27F756DB001579E8 /* BloomLineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloomLineChart1ViewController.xib; sourceTree = "<group>"; };
+		66E700EE27F756FD001579E8 /* BloomLineChart2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloomLineChart2ViewController.xib; sourceTree = "<group>"; };
+		66E700F027F75722001579E8 /* BloomLineChart2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomLineChart2ViewController.swift; sourceTree = "<group>"; };
 		B64D06EA1FB199130067418D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -392,29 +400,8 @@
 		225B36431F6EBA410005B3D5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				225B36511F6EBA410005B3D5 /* AnotherBarChartViewController.swift */,
-				225B36581F6EBA410005B3D5 /* BarChartViewController.swift */,
-				225B364E1F6EBA410005B3D5 /* BubbleChartViewController.swift */,
-				225B365A1F6EBA410005B3D5 /* CandleStickChartViewController.swift */,
-				225B36481F6EBA410005B3D5 /* ColoredLineChartViewController.swift */,
-				225B36571F6EBA410005B3D5 /* CombinedChartViewController.swift */,
-				225B36531F6EBA410005B3D5 /* CubicLineChartViewController.swift */,
-				225B36461F6EBA410005B3D5 /* HalfPieChartViewController.swift */,
-				225B36551F6EBA410005B3D5 /* HorizontalBarChartViewController.swift */,
-				225B364A1F6EBA410005B3D5 /* LineChart1ViewController.swift */,
-				225B36491F6EBA410005B3D5 /* LineChart2ViewController.swift */,
-				225B364F1F6EBA410005B3D5 /* LineChartFilledViewController.swift */,
-				225B36471F6EBA410005B3D5 /* LineChartTimeViewController.swift */,
-				225B36441F6EBA410005B3D5 /* MultipleLinesChartViewController.swift */,
-				225B36451F6EBA410005B3D5 /* MultipleBarChartViewController.swift */,
-				225B364B1F6EBA410005B3D5 /* NegativeStackedBarChartViewController.swift */,
-				225B36521F6EBA410005B3D5 /* PieChartViewController.swift */,
-				225B36561F6EBA410005B3D5 /* PiePolylineChartViewController.swift */,
-				225B36501F6EBA410005B3D5 /* PositiveNegativeBarChartViewController.swift */,
-				225B36541F6EBA410005B3D5 /* RadarChartViewController.swift */,
-				225B364C1F6EBA410005B3D5 /* ScatterChartViewController.swift */,
-				225B36591F6EBA410005B3D5 /* SinusBarChartViewController.swift */,
-				225B364D1F6EBA410005B3D5 /* StackedBarChartViewController.swift */,
+				66E700E927F75656001579E8 /* Bloom */,
+				66E700E727F75651001579E8 /* Core */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -441,6 +428,8 @@
 				5BEAED301ABC18F00013F194 /* CubicLineChartViewController.xib */,
 				5BE6737F1D5B496500A87BA2 /* HalfPieChartViewController.xib */,
 				5BDEDC401ABB7F73007D3A60 /* HorizontalBarChartViewController.xib */,
+				66E700EC27F756DB001579E8 /* BloomLineChart1ViewController.xib */,
+				66E700EE27F756FD001579E8 /* BloomLineChart2ViewController.xib */,
 				5BD8F0731AB89CE500566E05 /* LineChart1ViewController.xib */,
 				5BD47E5F1ABB3C91008FCEC6 /* LineChart2ViewController.xib */,
 				5BE6738E1D5B4E0900A87BA2 /* LineChartFilledViewController.xib */,
@@ -602,6 +591,45 @@
 			path = Formatters;
 			sourceTree = "<group>";
 		};
+		66E700E727F75651001579E8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				225B36511F6EBA410005B3D5 /* AnotherBarChartViewController.swift */,
+				225B36581F6EBA410005B3D5 /* BarChartViewController.swift */,
+				225B364E1F6EBA410005B3D5 /* BubbleChartViewController.swift */,
+				225B365A1F6EBA410005B3D5 /* CandleStickChartViewController.swift */,
+				225B36481F6EBA410005B3D5 /* ColoredLineChartViewController.swift */,
+				225B36571F6EBA410005B3D5 /* CombinedChartViewController.swift */,
+				225B36531F6EBA410005B3D5 /* CubicLineChartViewController.swift */,
+				225B36461F6EBA410005B3D5 /* HalfPieChartViewController.swift */,
+				225B36551F6EBA410005B3D5 /* HorizontalBarChartViewController.swift */,
+				225B364A1F6EBA410005B3D5 /* LineChart1ViewController.swift */,
+				225B36491F6EBA410005B3D5 /* LineChart2ViewController.swift */,
+				225B364F1F6EBA410005B3D5 /* LineChartFilledViewController.swift */,
+				225B36471F6EBA410005B3D5 /* LineChartTimeViewController.swift */,
+				225B36441F6EBA410005B3D5 /* MultipleLinesChartViewController.swift */,
+				225B36451F6EBA410005B3D5 /* MultipleBarChartViewController.swift */,
+				225B364B1F6EBA410005B3D5 /* NegativeStackedBarChartViewController.swift */,
+				225B36521F6EBA410005B3D5 /* PieChartViewController.swift */,
+				225B36561F6EBA410005B3D5 /* PiePolylineChartViewController.swift */,
+				225B36501F6EBA410005B3D5 /* PositiveNegativeBarChartViewController.swift */,
+				225B36541F6EBA410005B3D5 /* RadarChartViewController.swift */,
+				225B364C1F6EBA410005B3D5 /* ScatterChartViewController.swift */,
+				225B36591F6EBA410005B3D5 /* SinusBarChartViewController.swift */,
+				225B364D1F6EBA410005B3D5 /* StackedBarChartViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		66E700E927F75656001579E8 /* Bloom */ = {
+			isa = PBXGroup;
+			children = (
+				66E700EA27F7565E001579E8 /* BloomLineChart1ViewController.swift */,
+				66E700F027F75722001579E8 /* BloomLineChart2ViewController.swift */,
+			);
+			path = Bloom;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,10 +765,12 @@
 				225B368A1F6EBA640005B3D5 /* SinusBarChartViewController.xib in Resources */,
 				225B36731F6EBA5E0005B3D5 /* RadarMarkerView.xib in Resources */,
 				225B367E1F6EBA640005B3D5 /* LineChart2ViewController.xib in Resources */,
+				66E700ED27F756DB001579E8 /* BloomLineChart1ViewController.xib in Resources */,
 				225B36881F6EBA640005B3D5 /* RealmDemosViewController.xib in Resources */,
 				225B36861F6EBA640005B3D5 /* PositiveNegativeBarChartViewController.xib in Resources */,
 				225B36831F6EBA640005B3D5 /* NegativeStackedBarChartViewController.xib in Resources */,
 				225B36761F6EBA640005B3D5 /* BubbleChartViewController.xib in Resources */,
+				66E700EF27F756FD001579E8 /* BloomLineChart2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,6 +817,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E700F227F7578F001579E8 /* BloomLineChart1ViewController.swift in Sources */,
+				66E700F127F75722001579E8 /* BloomLineChart2ViewController.swift in Sources */,
 				225B365E1F6EBA470005B3D5 /* LineChartTimeViewController.swift in Sources */,
 				225B36311F6EB9EE0005B3D5 /* DemoBaseViewController.swift in Sources */,
 				225B36391F6EBA040005B3D5 /* DayAxisValueFormatter.swift in Sources */,

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LineChart1ViewController" customModule="ChartsDemo_iOS" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BloomLineChart1ViewController" customModule="ChartsDemo_iOS_Swift" customModuleProvider="target">
             <connections>
                 <outlet property="chartView" destination="Oqd-Ej-1xl" id="tSA-aU-J9W"/>
                 <outlet property="sliderTextX" destination="It4-Tc-0qK" id="esc-84-jQT"/>
@@ -34,7 +34,7 @@
                         <action selector="optionsButtonTapped:" destination="-1" eventType="touchUpInside" id="ig5-8o-JhO"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oqd-Ej-1xl" customClass="LineChartView" customModule="Charts">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oqd-Ej-1xl" customClass="BloomLineChartView" customModule="Charts">
                     <rect key="frame" x="0.0" y="47" width="375" height="501"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
@@ -70,7 +70,7 @@
                 </textField>
             </subviews>
             <viewLayoutGuide key="safeArea" id="TE7-or-dqL"/>
-            <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="Oqd-Ej-1xl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="47" id="3NA-if-rAO"/>
                 <constraint firstItem="IuK-nU-ZPT" firstAttribute="leading" secondItem="TE7-or-dqL" secondAttribute="leading" constant="8" id="66R-JE-JSc"/>
