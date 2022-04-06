@@ -400,8 +400,31 @@
 		225B36431F6EBA410005B3D5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				66E700E927F75656001579E8 /* Bloom */,
-				66E700E727F75651001579E8 /* Core */,
+				66E700EA27F7565E001579E8 /* BloomLineChart1ViewController.swift */,
+				66E700F027F75722001579E8 /* BloomLineChart2ViewController.swift */,
+				225B36511F6EBA410005B3D5 /* AnotherBarChartViewController.swift */,
+				225B36581F6EBA410005B3D5 /* BarChartViewController.swift */,
+				225B364E1F6EBA410005B3D5 /* BubbleChartViewController.swift */,
+				225B365A1F6EBA410005B3D5 /* CandleStickChartViewController.swift */,
+				225B36481F6EBA410005B3D5 /* ColoredLineChartViewController.swift */,
+				225B36571F6EBA410005B3D5 /* CombinedChartViewController.swift */,
+				225B36531F6EBA410005B3D5 /* CubicLineChartViewController.swift */,
+				225B36461F6EBA410005B3D5 /* HalfPieChartViewController.swift */,
+				225B36551F6EBA410005B3D5 /* HorizontalBarChartViewController.swift */,
+				225B364A1F6EBA410005B3D5 /* LineChart1ViewController.swift */,
+				225B36491F6EBA410005B3D5 /* LineChart2ViewController.swift */,
+				225B364F1F6EBA410005B3D5 /* LineChartFilledViewController.swift */,
+				225B36471F6EBA410005B3D5 /* LineChartTimeViewController.swift */,
+				225B36441F6EBA410005B3D5 /* MultipleLinesChartViewController.swift */,
+				225B36451F6EBA410005B3D5 /* MultipleBarChartViewController.swift */,
+				225B364B1F6EBA410005B3D5 /* NegativeStackedBarChartViewController.swift */,
+				225B36521F6EBA410005B3D5 /* PieChartViewController.swift */,
+				225B36561F6EBA410005B3D5 /* PiePolylineChartViewController.swift */,
+				225B36501F6EBA410005B3D5 /* PositiveNegativeBarChartViewController.swift */,
+				225B36541F6EBA410005B3D5 /* RadarChartViewController.swift */,
+				225B364C1F6EBA410005B3D5 /* ScatterChartViewController.swift */,
+				225B36591F6EBA410005B3D5 /* SinusBarChartViewController.swift */,
+				225B364D1F6EBA410005B3D5 /* StackedBarChartViewController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -589,45 +612,6 @@
 				5BE673991D5BAD7E00A87BA2 /* DateValueFormatter.m */,
 			);
 			path = Formatters;
-			sourceTree = "<group>";
-		};
-		66E700E727F75651001579E8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				225B36511F6EBA410005B3D5 /* AnotherBarChartViewController.swift */,
-				225B36581F6EBA410005B3D5 /* BarChartViewController.swift */,
-				225B364E1F6EBA410005B3D5 /* BubbleChartViewController.swift */,
-				225B365A1F6EBA410005B3D5 /* CandleStickChartViewController.swift */,
-				225B36481F6EBA410005B3D5 /* ColoredLineChartViewController.swift */,
-				225B36571F6EBA410005B3D5 /* CombinedChartViewController.swift */,
-				225B36531F6EBA410005B3D5 /* CubicLineChartViewController.swift */,
-				225B36461F6EBA410005B3D5 /* HalfPieChartViewController.swift */,
-				225B36551F6EBA410005B3D5 /* HorizontalBarChartViewController.swift */,
-				225B364A1F6EBA410005B3D5 /* LineChart1ViewController.swift */,
-				225B36491F6EBA410005B3D5 /* LineChart2ViewController.swift */,
-				225B364F1F6EBA410005B3D5 /* LineChartFilledViewController.swift */,
-				225B36471F6EBA410005B3D5 /* LineChartTimeViewController.swift */,
-				225B36441F6EBA410005B3D5 /* MultipleLinesChartViewController.swift */,
-				225B36451F6EBA410005B3D5 /* MultipleBarChartViewController.swift */,
-				225B364B1F6EBA410005B3D5 /* NegativeStackedBarChartViewController.swift */,
-				225B36521F6EBA410005B3D5 /* PieChartViewController.swift */,
-				225B36561F6EBA410005B3D5 /* PiePolylineChartViewController.swift */,
-				225B36501F6EBA410005B3D5 /* PositiveNegativeBarChartViewController.swift */,
-				225B36541F6EBA410005B3D5 /* RadarChartViewController.swift */,
-				225B364C1F6EBA410005B3D5 /* ScatterChartViewController.swift */,
-				225B36591F6EBA410005B3D5 /* SinusBarChartViewController.swift */,
-				225B364D1F6EBA410005B3D5 /* StackedBarChartViewController.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		66E700E927F75656001579E8 /* Bloom */ = {
-			isa = PBXGroup;
-			children = (
-				66E700EA27F7565E001579E8 /* BloomLineChart1ViewController.swift */,
-				66E700F027F75722001579E8 /* BloomLineChart2ViewController.swift */,
-			);
-			path = Bloom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

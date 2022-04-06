@@ -421,8 +421,20 @@
 		2227EA581FF1F224007D98D9 /* ChartRenderers */ = {
 			isa = PBXGroup;
 			children = (
-				66E700F327F75E9B001579E8 /* Bloom */,
-				66E700F427F75EA2001579E8 /* Core */,
+				0216EDC6A1FE272F4EB19FCF /* DataRenderer.swift */,
+				75F279974FE650E57A061B09 /* BarChartRenderer.swift */,
+				5B1C588E9DF6FFD56D7ADF8E /* BarLineScatterCandleBubbleRenderer.swift */,
+				2194AA554712E6BA2677F114 /* BubbleChartRenderer.swift */,
+				BD5C6D20243EC2F19069AACD /* CandleStickChartRenderer.swift */,
+				52265C1B343CCC41AF2300E3 /* CombinedChartRenderer.swift */,
+				539382766378B702660FDFB2 /* HorizontalBarChartRenderer.swift */,
+				0DABDBBCCE6B3620C967F04A /* LineChartRenderer.swift */,
+				105FFC9D3773A9C7A60A897F /* LineRadarRenderer.swift */,
+				923206233CA89FD03565FF87 /* LineScatterCandleRadarRenderer.swift */,
+				46D8013D44629521B1746364 /* PieChartRenderer.swift */,
+				7AC9C3D69ACB5BDE22421E15 /* RadarChartRenderer.swift */,
+				80D5B764EC0AE1E17E55DC67 /* ScatterChartRenderer.swift */,
+				66E700DB27F72AE5001579E8 /* BloomLineChartRenderer.swift */,
 			);
 			name = ChartRenderers;
 			sourceTree = "<group>";
@@ -488,7 +500,18 @@
 		3B9DD76FCE8D873300A822C7 /* ChartDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				66E700E627F72DF9001579E8 /* Core */,
+				C9FE42E868A225C116537368 /* ChartBaseDataSet.swift */,
+				C31AA65EA27776F8C653C7E8 /* BarChartDataSet.swift */,
+				6D717F0808DE7EC8A4AE9C2A /* BarLineScatterCandleBubbleChartDataSet.swift */,
+				B44829AF0ADA583F1F0279B7 /* BubbleChartDataSet.swift */,
+				274116834B1B0345D622E027 /* CandleChartDataSet.swift */,
+				6CEC0C69C89CE9B99F3B4409 /* ChartDataSet.swift */,
+				A5A75AA73C5AA381DA517959 /* LineChartDataSet.swift */,
+				45E31A4356CC6F283C29954B /* LineRadarChartDataSet.swift */,
+				C58BD7B14BEA440783ED8D2B /* LineScatterCandleRadarChartDataSet.swift */,
+				A4FB5E3761EF8B4D1E1E1014 /* PieChartDataSet.swift */,
+				B1BA6B21CBDF77A15848994F /* RadarChartDataSet.swift */,
+				CB1DD1A0F64266A10EE94194 /* ScatterChartDataSet.swift */,
 			);
 			name = ChartDataSet;
 			sourceTree = "<group>";
@@ -526,71 +549,6 @@
 				FB92A80F861C1362EED8D946 /* YAxis.swift */,
 			);
 			name = Components;
-			sourceTree = "<group>";
-		};
-		66E700E527F72DF1001579E8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				7A53A9E42FC07FFDACA937C1 /* BarChartDataSetProtocol.swift */,
-				A5649B272BF3EBFC8A1EF0C1 /* BarLineScatterCandleBubbleChartDataSetProtocol.swift */,
-				F3788EC55EF908B0805D7C2F /* BubbleChartDataSetProtocol.swift */,
-				18BFB0A14A5C47A302A597D9 /* CandleChartDataSetProtocol.swift */,
-				3A32510073A303CBB38E094A /* ChartDataSetProtocol.swift */,
-				429E88F2729735DC092EE556 /* LineChartDataSetProtocol.swift */,
-				4F7E6A99D82E6AE3804D5A39 /* LineRadarChartDataSetProtocol.swift */,
-				9249AD9AEC8C85772365A128 /* LineScatterCandleRadarChartDataSetProtocol.swift */,
-				DA2AA6CC89F809DCCD7605B4 /* PieChartDataSetProtocol.swift */,
-				2EAD807534620E3B53327F04 /* RadarChartDataSetProtocol.swift */,
-				219BC9CEA037F897E92E45D1 /* ScatterChartDataSetProtocol.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		66E700E627F72DF9001579E8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				C9FE42E868A225C116537368 /* ChartBaseDataSet.swift */,
-				C31AA65EA27776F8C653C7E8 /* BarChartDataSet.swift */,
-				6D717F0808DE7EC8A4AE9C2A /* BarLineScatterCandleBubbleChartDataSet.swift */,
-				B44829AF0ADA583F1F0279B7 /* BubbleChartDataSet.swift */,
-				274116834B1B0345D622E027 /* CandleChartDataSet.swift */,
-				6CEC0C69C89CE9B99F3B4409 /* ChartDataSet.swift */,
-				A5A75AA73C5AA381DA517959 /* LineChartDataSet.swift */,
-				45E31A4356CC6F283C29954B /* LineRadarChartDataSet.swift */,
-				C58BD7B14BEA440783ED8D2B /* LineScatterCandleRadarChartDataSet.swift */,
-				A4FB5E3761EF8B4D1E1E1014 /* PieChartDataSet.swift */,
-				B1BA6B21CBDF77A15848994F /* RadarChartDataSet.swift */,
-				CB1DD1A0F64266A10EE94194 /* ScatterChartDataSet.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		66E700F327F75E9B001579E8 /* Bloom */ = {
-			isa = PBXGroup;
-			children = (
-				66E700DB27F72AE5001579E8 /* BloomLineChartRenderer.swift */,
-			);
-			name = Bloom;
-			sourceTree = "<group>";
-		};
-		66E700F427F75EA2001579E8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0216EDC6A1FE272F4EB19FCF /* DataRenderer.swift */,
-				75F279974FE650E57A061B09 /* BarChartRenderer.swift */,
-				5B1C588E9DF6FFD56D7ADF8E /* BarLineScatterCandleBubbleRenderer.swift */,
-				2194AA554712E6BA2677F114 /* BubbleChartRenderer.swift */,
-				BD5C6D20243EC2F19069AACD /* CandleStickChartRenderer.swift */,
-				52265C1B343CCC41AF2300E3 /* CombinedChartRenderer.swift */,
-				539382766378B702660FDFB2 /* HorizontalBarChartRenderer.swift */,
-				0DABDBBCCE6B3620C967F04A /* LineChartRenderer.swift */,
-				105FFC9D3773A9C7A60A897F /* LineRadarRenderer.swift */,
-				923206233CA89FD03565FF87 /* LineScatterCandleRadarRenderer.swift */,
-				46D8013D44629521B1746364 /* PieChartRenderer.swift */,
-				7AC9C3D69ACB5BDE22421E15 /* RadarChartRenderer.swift */,
-				80D5B764EC0AE1E17E55DC67 /* ScatterChartRenderer.swift */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		74A391010038924F637D6752 /* Formatters */ = {
@@ -728,7 +686,17 @@
 		DB2D9648877455028EBEAA8F /* DataSet Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				66E700E527F72DF1001579E8 /* Core */,
+				7A53A9E42FC07FFDACA937C1 /* BarChartDataSetProtocol.swift */,
+				A5649B272BF3EBFC8A1EF0C1 /* BarLineScatterCandleBubbleChartDataSetProtocol.swift */,
+				F3788EC55EF908B0805D7C2F /* BubbleChartDataSetProtocol.swift */,
+				18BFB0A14A5C47A302A597D9 /* CandleChartDataSetProtocol.swift */,
+				3A32510073A303CBB38E094A /* ChartDataSetProtocol.swift */,
+				429E88F2729735DC092EE556 /* LineChartDataSetProtocol.swift */,
+				4F7E6A99D82E6AE3804D5A39 /* LineRadarChartDataSetProtocol.swift */,
+				9249AD9AEC8C85772365A128 /* LineScatterCandleRadarChartDataSetProtocol.swift */,
+				DA2AA6CC89F809DCCD7605B4 /* PieChartDataSetProtocol.swift */,
+				2EAD807534620E3B53327F04 /* RadarChartDataSetProtocol.swift */,
+				219BC9CEA037F897E92E45D1 /* ScatterChartDataSetProtocol.swift */,
 			);
 			name = "DataSet Protocols";
 			sourceTree = "<group>";
