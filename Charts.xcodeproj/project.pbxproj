@@ -73,7 +73,11 @@
 		63C0A21D145BFEDED5406E4D /* BubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44829AF0ADA583F1F0279B7 /* BubbleChartDataSet.swift */; };
 		64FA1EDB4DC1F65727D52D10 /* CombinedHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465CB73738EBAFB46C57288 /* CombinedHighlighter.swift */; };
 		65EA404AE098EBCE8D5DE04B /* CombinedChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A140F644332704916947B58C /* CombinedChartDataProvider.swift */; };
+		6602B28027EA0055002E3C4C /* Array+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602B26027E4B420002E3C4C /* Array+Access.swift */; };
 		66A18A8EEBAAAC2EDA31ABEC /* ChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC0C69C89CE9B99F3B4409 /* ChartDataSet.swift */; };
+		66E700DC27F72AE5001579E8 /* BloomLineChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E700DB27F72AE5001579E8 /* BloomLineChartRenderer.swift */; };
+		66E700DE27F72C17001579E8 /* BloomLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E700DD27F72C17001579E8 /* BloomLineChartView.swift */; };
+		66E700F627F75EE1001579E8 /* BloomLineChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E700F527F75EE1001579E8 /* BloomLineChartTests.swift */; };
 		69EA073EDF75D49ABE1715D6 /* RadarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9C3D69ACB5BDE22421E15 /* RadarChartRenderer.swift */; };
 		73EDF662AD989E930D365B72 /* PieHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7036F11832C017E26AC750A4 /* PieHighlighter.swift */; };
 		758EB1C75063ED3373542F3B /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64616883374310C505EC39 /* Highlight.swift */; };
@@ -247,6 +251,10 @@
 		6021C9E424C36116AEA78CC9 /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Source/Charts/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
 		62B73FCEDD3841E7B958F6A9 /* ChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataProvider.swift; path = Source/Charts/Interfaces/ChartDataProvider.swift; sourceTree = "<group>"; };
 		65AD9E95D9ED4DC0BD73A743 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6602B26027E4B420002E3C4C /* Array+Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+Access.swift"; path = "Source/Charts/Utils/Array+Access.swift"; sourceTree = "<group>"; };
+		66E700DB27F72AE5001579E8 /* BloomLineChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BloomLineChartRenderer.swift; path = Source/Charts/Renderers/BloomLineChartRenderer.swift; sourceTree = "<group>"; };
+		66E700DD27F72C17001579E8 /* BloomLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BloomLineChartView.swift; path = Source/Charts/Charts/BloomLineChartView.swift; sourceTree = "<group>"; };
+		66E700F527F75EE1001579E8 /* BloomLineChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomLineChartTests.swift; sourceTree = "<group>"; };
 		688B80F1AA88AE54152BE768 /* YAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRenderer.swift; path = Source/Charts/Renderers/YAxisRenderer.swift; sourceTree = "<group>"; };
 		6A4770E0F75EFFC30707A7C8 /* DefaultAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAxisValueFormatter.swift; path = Source/Charts/Formatters/DefaultAxisValueFormatter.swift; sourceTree = "<group>"; };
 		6CEC0C69C89CE9B99F3B4409 /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
@@ -426,6 +434,7 @@
 				46D8013D44629521B1746364 /* PieChartRenderer.swift */,
 				7AC9C3D69ACB5BDE22421E15 /* RadarChartRenderer.swift */,
 				80D5B764EC0AE1E17E55DC67 /* ScatterChartRenderer.swift */,
+				66E700DB27F72AE5001579E8 /* BloomLineChartRenderer.swift */,
 			);
 			name = ChartRenderers;
 			sourceTree = "<group>";
@@ -577,6 +586,7 @@
 				11EF1FE22549E885C8F40738 /* CombinedChartView.swift */,
 				6021C9E424C36116AEA78CC9 /* HorizontalBarChartView.swift */,
 				0619A877C69A95ECCC440A44 /* LineChartView.swift */,
+				66E700DD27F72C17001579E8 /* BloomLineChartView.swift */,
 				9DCD13D558BA177D5952AD66 /* PieChartView.swift */,
 				4A6C9631C69B2D772BBD9232 /* PieRadarChartViewBase.swift */,
 				2440DB759AB93B4A928A3F6F /* RadarChartView.swift */,
@@ -595,6 +605,7 @@
 				2243BBFB1FF156D000B49D0B /* EquatableTests.swift */,
 				B6BF9A551F91993A00E62A5D /* CombinedChartTests.swift */,
 				D2E1819D72CD7B6C4A4E8048 /* LineChartTests.swift */,
+				66E700F527F75EE1001579E8 /* BloomLineChartTests.swift */,
 				135F11CD20425AF600D655A3 /* PieChartTests.swift */,
 				064989451F5C99C7006E8BB3 /* Utilities.swift */,
 				C03E6D8023DAAB2600083010 /* ChartDataTests.swift */,
@@ -659,6 +670,7 @@
 				FF475B9593B9898853814340 /* Transformer.swift */,
 				324C9127B53A8D39C8B49277 /* TransformerHorizontalBarChart.swift */,
 				72EAEBB7CF73E33565FC2896 /* ViewPortHandler.swift */,
+				6602B26027E4B420002E3C4C /* Array+Access.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -933,12 +945,15 @@
 				9C91C151608E2D6E19B1EAD1 /* Range.swift in Sources */,
 				00BC23EF0E04E17188344403 /* BarChartDataProvider.swift in Sources */,
 				28FEE609C5B22FD64C7E5D10 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */,
+				6602B28027EA0055002E3C4C /* Array+Access.swift in Sources */,
 				4272DA5D44AF7DA05A5A8287 /* BubbleChartDataProvider.swift in Sources */,
 				30DCC4BAA5601B154ABADA13 /* CandleChartDataProvider.swift in Sources */,
 				FD37AAC0270F390FFC470A65 /* ChartDataProvider.swift in Sources */,
 				C9F3DC292355FA2F000C3215 /* Platform+Touch Handling.swift in Sources */,
 				65EA404AE098EBCE8D5DE04B /* CombinedChartDataProvider.swift in Sources */,
 				2BA03CEC36BADCF682F1328B /* LineChartDataProvider.swift in Sources */,
+				66E700DC27F72AE5001579E8 /* BloomLineChartRenderer.swift in Sources */,
+				66E700DE27F72C17001579E8 /* BloomLineChartView.swift in Sources */,
 				0511E43EF3FD2CDE7F7F15DB /* ScatterChartDataProvider.swift in Sources */,
 				06AB297F20FA726600BAD505 /* Highlighter.swift in Sources */,
 				7EE6EFE70CF4D8B09CAFCD01 /* AnimatedMoveViewJob.swift in Sources */,
@@ -994,6 +1009,7 @@
 			files = (
 				3B11556EB7DC034E2FC958E4 /* BarChartTests.swift in Sources */,
 				8E1192F7A7152E9DA92C56A9 /* ChartUtilsTests.swift in Sources */,
+				66E700F627F75EE1001579E8 /* BloomLineChartTests.swift in Sources */,
 				2243BBFD1FF156EC00B49D0B /* EquatableTests.swift in Sources */,
 				B6BF9A561F91993A00E62A5D /* CombinedChartTests.swift in Sources */,
 				2BF85BEA981B359A65E9BF67 /* LineChartTests.swift in Sources */,

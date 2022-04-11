@@ -2,16 +2,16 @@
 //  LineChart1ViewController.swift
 //  ChartsDemo-iOS
 //
-//  Created by Jacob Christie on 2017-07-09.
-//  Copyright © 2017 jc. All rights reserved.
+//  Created by Kurt Jacobs on 2022/04/01.
+//  Copyright © 2022 dcg. All rights reserved.
 //
 
 import UIKit
 import Charts
 
-class LineChart1ViewController: DemoBaseViewController {
+class BloomLineChart1ViewController: DemoBaseViewController {
 
-    @IBOutlet var chartView: LineChartView!
+    @IBOutlet var chartView: BloomLineChartView!
     @IBOutlet var sliderX: UISlider!
     @IBOutlet var sliderY: UISlider!
     @IBOutlet var sliderTextX: UITextField!
@@ -222,3 +222,4 @@ class LineChart1ViewController: DemoBaseViewController {
         self.updateChartData()
     }
 }
+

@@ -1,11 +1,18 @@
+//
+//  BloomLineChartTests.swift
+//  ChartsTests
+//
+//  Created by Kurt Jacobs on 2022/04/01.
+//
+
 @testable import Charts
 import SnapshotTesting
 import XCTest
 
-class LineChartTests: XCTestCase {
+class BloomLineChartTests: XCTestCase {
     private lazy var icon = UIImage(named: "icon", in: Bundle(for: classForCoder), compatibleWith: nil)!
 
-    var chart: LineChartView!
+    var chart: BloomLineChartView!
     var dataSet: LineChartDataSet!
 
     override func setUp() {
@@ -28,9 +35,11 @@ class LineChartTests: XCTestCase {
         dataSet = LineChartDataSet(entries: entries, label: "First unit test data")
         dataSet.drawIconsEnabled = false
         dataSet.drawVertexImagesEnabled = false
+        dataSet.vertexImagesBundle = Bundle(for: classForCoder)
+        dataSet.vertexImageNames = values.map { _ -> String in "icon" }
         dataSet.iconsOffset = CGPoint(x: 0, y: 20.0)
 
-        chart = LineChartView(frame: CGRect(x: 0, y: 0, width: 480, height: 350))
+        chart = BloomLineChartView(frame: CGRect(x: 0, y: 0, width: 480, height: 350))
         chart.backgroundColor = NSUIColor.clear
         chart.leftAxis.axisMinimum = 0.0
         chart.rightAxis.axisMinimum = 0.0
@@ -69,6 +78,12 @@ class LineChartTests: XCTestCase {
     func testDrawIcons() {
         dataSet.drawIconsEnabled = true
         dataSet.drawVertexImagesEnabled = false
+        assertChartSnapshot(matching: chart)
+    }
+
+    func testDrawLabelImages() {
+        dataSet.drawVertexImagesEnabled = true
+        dataSet.drawCirclesEnabled = false
         assertChartSnapshot(matching: chart)
     }
 }
