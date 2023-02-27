@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsLibrary
 
 public class DateValueFormatter: NSObject, AxisValueFormatter {
     private let dateFormatter = DateFormatter()

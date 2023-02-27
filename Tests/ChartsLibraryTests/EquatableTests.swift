@@ -5,7 +5,7 @@
 //  Created by Jacob Christie on 2017-11-13.
 //
 
-@testable import Charts
+@testable import ChartsLibrary
 import XCTest
 
 class EquatableTests: XCTestCase {

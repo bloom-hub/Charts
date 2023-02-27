@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsLibrary
 
 public class DayAxisValueFormatter: NSObject, AxisValueFormatter {
     weak var chart: BarLineChartViewBase?

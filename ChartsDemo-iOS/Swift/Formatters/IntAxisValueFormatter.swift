@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsLibrary
 
 public class IntAxisValueFormatter: NSObject, AxisValueFormatter {
     public func stringForValue(_ value: Double, axis: AxisBase?) -> String {

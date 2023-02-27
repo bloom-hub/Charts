@@ -17,7 +17,7 @@
 
 //: # Stacked Bar
 import Cocoa
-import Charts
+import ChartsLibrary
 import PlaygroundSupport
 
 

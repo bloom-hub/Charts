@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsLibrary
 #if canImport(UIKit)
     import UIKit
 #endif
