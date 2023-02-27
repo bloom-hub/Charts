@@ -5,7 +5,7 @@
 //  Created by Xuan Liu on 2019/3/20.
 //
 
-@testable import Charts
+@testable import ChartsLibrary
 import SnapshotTesting
 import XCTest
 

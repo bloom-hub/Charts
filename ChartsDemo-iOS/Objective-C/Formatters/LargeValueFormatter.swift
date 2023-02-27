@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsLibrary
 
 open class LargeValueFormatter: NSObject, ValueFormatter, AxisValueFormatter
 {

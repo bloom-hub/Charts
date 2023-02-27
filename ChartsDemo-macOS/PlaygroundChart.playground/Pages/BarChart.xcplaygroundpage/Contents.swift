@@ -19,7 +19,7 @@
 //: # Bar Chart
 //#-hidden-code
 import Cocoa
-import Charts
+import ChartsLibrary
 import PlaygroundSupport
 //#-end-hidden-code
 

@@ -9,7 +9,7 @@
 #if canImport(UIKit)
     import UIKit
 #endif
-import Charts
+import ChartsLibrary
 
 enum Option {
     case toggleValues
